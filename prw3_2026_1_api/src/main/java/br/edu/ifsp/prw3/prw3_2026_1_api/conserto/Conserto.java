@@ -38,4 +38,6 @@ public class Conserto {
         this.veiculo = new Veiculo(cadastroConserto.veiculo());
         this.mecanico = new Mecanico(cadastroConserto.mecanico());
     }
+
+
 }

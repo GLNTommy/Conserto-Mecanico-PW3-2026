@@ -1,4 +1,20 @@
 package br.edu.ifsp.prw3.prw3_2026_1_api.veiculo;
 
-public record DadosVeiculo(String marca, String modelo, String ano) {
+import jakarta.validation.constraints.NotBlank;
+
+import jakarta.validation.constraints.Pattern;
+
+public record DadosVeiculo(
+
+        @NotBlank
+        String marca,
+
+        @NotBlank
+        String modelo,
+
+        @NotBlank
+        @Pattern(regexp = "\\d{4}")
+        String ano,
+
+        String cor) {
 }
