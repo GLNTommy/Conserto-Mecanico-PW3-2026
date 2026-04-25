@@ -19,4 +19,20 @@ public class Mecanico {
         this.nome = mecanico.nome();
         this.experiencia = mecanico.anosExp();
     }
+
+    public void atualizarNome(String nomeAtualizado){
+        if (nomeAtualizado!= null){
+            this.nome = nomeAtualizado;
+        }
+    }
+
+    public void atualizarExp(int expAtualizada){
+        if (expAtualizada >= 0){
+            this.experiencia = expAtualizada;
+        }
+    }
+
+
+
+
 }
