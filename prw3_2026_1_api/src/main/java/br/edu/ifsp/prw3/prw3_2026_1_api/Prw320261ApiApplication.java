@@ -8,6 +8,9 @@ import org.springframework.data.web.config.EnableSpringDataWebSupport;
 @EnableSpringDataWebSupport(pageSerializationMode = EnableSpringDataWebSupport.PageSerializationMode.VIA_DTO)
 public class Prw320261ApiApplication {
 
+//	João Vinícius Gonçalves dos Santos   SC3018814
+//	Thomas Caio dos Santos   SC302086X
+
 	public static void main(String[] args) {
 		SpringApplication.run(Prw320261ApiApplication.class, args);
 	}
